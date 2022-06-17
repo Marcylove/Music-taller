@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/*---------------------header---------------------*/
+header{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+/*---------------------contenido 1---------------------*/
+.seccion{
+    width: 100%;
+    background-color: transparent;
+}
+.seccion img{
+    height: auto;
+    width:430px;
+}
+.content-text{
+    width:550px;
+}
+.main{
+    width:1130px;
+    max-width:95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row-reverse;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.degradado{
+    background:linear-gradient(to right, rgb(255, 0, 106), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+.btn{
+    background-color: rgb(238, 32, 128);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.text1{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+}
+/*---------------------contenido 2-------------------*/
+.main2{
+    width:1130px;
+    max-width:95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.main2 h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+.text2{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+}
+/*---------------------contenido 3-------------------*/
+.main3{
+    background: url(../images/footer.png) no-repeat center;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.main3 h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    display: flex;
+    color:white;
+    
+}
+.text3{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    color:white;
+}
+/*---------------------footer-----------*/
+footer{
+    background-color: rgb(238, 32, 128);
+    background-size:cover;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family:'Courier New', Courier, monospace ;
+}
+.content-footer{
+    color:white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content-footer li{
+    list-style: none;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.content-footer h4{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 40px;
+}
